@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GitHub Organisation Explorer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <div class="navbar-div">
+            <h3> GitHub Organization Explorer</h3> </h3>
+        </div>
+        <main class="main">
+            <div>
+                <input type="text" class="input-btn" placeholder="Organisation" id="organisation-el">
+            </div>
+            <div>
+                <input type="number" class="input-btn" placeholder="N (Top Repos)" id="n-el">
+            </div>
+            <div>
+                <input type="number" class="input-btn" placeholder="M (Oldest Forks)" id="m-el">
+            </div>
+            <div>
+                <input type="submit" class="input-btn" value="Fetch" id="fetch-btn">
+            </div>
+        </main>
+        <div id="results">
+            <ol id="ol-el">
+            </ol>
+        </div>
+        <script src="index.js" type="module" async defer></script>
+    </body>
+</html>
